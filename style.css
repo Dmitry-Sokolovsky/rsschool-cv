@@ -5,4 +5,35 @@ body {
     font-family: Arial, sans-serif;
     font-size: 18px;
     color: black;
+    
+}
+
+.wraper{
+    max-width: 1024px;
+    margin: 0 auto;
+    background: rgba(255, 255, 252, 0.918);
+}
+.contacts,
+.summary,
+.skills,
+.experience,
+.education,
+.english{
+    padding: 0px 20px 0px 20px;
+
+}
+.contacts li{
+    margin: 10px 0px;
+}
+
+.technology{
+    font-weight: bold;
+    padding: 5px 0px;
+}
+
+ul>li{
+    list-style-type: none;
+}
+p{
+    line-height: 1.5;
 }
